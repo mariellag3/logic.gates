@@ -56,12 +56,12 @@ let ausgabe = true
 
 function check() { 
     console.log(eingabe1,eingabe2,ausgabe)
-    if (eingabe1 && eingabe2){
+     if (!eingabe1 && !eingabe2){
         ausgabe = true
     }
 
     else (
-        ausgabe =  false
+        ausgabe = false
     )
 
 
